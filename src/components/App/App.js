@@ -13,12 +13,10 @@ class App extends Component {
   render () {
     return (
       <div className="app">
-        YOUR CODE GOES HERE!
+        Hello!
       </div>
     );
   }
 }
 
 export default App;
-
-//test2
