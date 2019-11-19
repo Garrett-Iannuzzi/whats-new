@@ -3,7 +3,6 @@ import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle'
 
 const  NewsContainer = ({ articles }) => {
-  console.log('articles', articles)
   const newsArticles = articles.map(article => {
     return (
       <NewsArticle

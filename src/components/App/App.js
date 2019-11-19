@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import local from '../../data/local';
 import './App.css';
 import NewsContainer from '../NewsContainer/NewsContainer';
+import Menu from '../Menu/Menu';
 
 class App extends Component {
   constructor() {
@@ -9,12 +10,12 @@ class App extends Component {
     this.state = {
       local
     }
-    console.log(this.state)
   }
 
   render () {
     return (
       <main className="app">
+        <Menu />
         <NewsContainer 
           articles={this.state.local}
         />
