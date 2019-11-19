@@ -15,7 +15,7 @@ class App extends Component {
 
   render () {
     return (
-      <main className="app">
+      <main>
         <Menu />
         <SearchForm />
         <NewsContainer 
