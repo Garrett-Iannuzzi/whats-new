@@ -1,4 +1,19 @@
+.article-individual {
+  border: solid 2px white;
+  font-size: .9em;
+  margin: .5em;
+  padding: .1em;
+  width: 48%;
+}
+
 .art-img {
-  height: 15em;
-  width: 15em;
+  width: 70%;
+}
+
+.see-article-btn {
+  border-radius: 5px;
+  font-weight: bold;
+  height: 2em;
+  margin: 1em;
+  width: 40%;
 }

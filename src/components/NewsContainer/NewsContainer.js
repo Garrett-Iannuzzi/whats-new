@@ -16,7 +16,7 @@ const  NewsContainer = ({ articles }) => {
   })
 
   return (
-    <section className="article">
+    <section className="article-section">
       {newsArticles}
     </section>
   )
