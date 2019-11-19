@@ -3,13 +3,13 @@ import './SearchForm.css';
 
 const SearchForm = () => {
   return (
-    <aside>
-      <button className='news-type-btn'>Local News</button>
-      <button className='news-type-btn'>Tech</button>
-      <button className='news-type-btn'>Entertainment</button>
-      <button className='news-type-btn'>Science</button>
-      <button className='news-type-btn'>Health</button>
-    </aside>
+    <div>
+      <input 
+        type='text'
+        placeholder='Search News'
+      />
+      <button className='search-btn'>Search</button>
+    </div>
   )
 }
 export default SearchForm;

@@ -1,15 +1,17 @@
 import React from 'react';
 import './Menu.css'
 
-const Menu = () => {
+const Menu = ({ filterByNewsType }) => {
   return (
     <nav className='navbar'> 
       <h1>What's NEWs</h1>
-      <input 
-        type='text'
-        placeholder='Search News'
-      />
-      <button className='search-btn'>Search</button>
+      <aside>
+        <button className='news-type-btn' onClick={filterByNewsType}>Local News</button>
+        <button className='news-type-btn' onClick={filterByNewsType}>Tech</button>
+        <button className='news-type-btn' onClick={filterByNewsType}>Entertainment</button>
+        <button className='news-type-btn' onClick={filterByNewsType}>Science</button>
+        <button className='news-type-btn' onClick={filterByNewsType}>Health</button>
+      </aside>
     </nav>
   )
 }

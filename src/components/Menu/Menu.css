@@ -1,18 +1,6 @@
-.navbar {
-  background-color: darkgrey;
-  border-bottom: solid 4px white;
-  display: flex;
-  height: 3.2em;
-  justify-content: space-between;
-}
-
-h1 {
-  font-size: 1.7em;
-  color: black;
-  padding: 15px 0px;
-}
-
 input {
+  background-color: aliceblue;
+  height: 4em;
   margin: 10px;
   padding-left: 8px;
   width: 40%;
