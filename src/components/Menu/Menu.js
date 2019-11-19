@@ -3,7 +3,7 @@ import './Menu.css'
 
 const Menu = () => {
   return (
-    <nav>
+    <nav className='navbar'> 
       <h1>What's NEWs</h1>
       <input 
         type='text'

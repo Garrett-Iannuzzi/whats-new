@@ -1,0 +1,23 @@
+.navbar {
+  background-color: darkgrey;
+  display: flex;
+  height: 3em;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 1.7em;
+  color: black;
+  padding: 15px 0px;
+}
+
+input {
+  margin: 10px;
+  padding-left: 8px;
+  width: 40%;
+}
+
+button {
+  margin: 10px;
+  width: 15%;
+}
