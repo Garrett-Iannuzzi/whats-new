@@ -1,0 +1,11 @@
+aside {
+  background-color: aliceblue;
+  height: 4em;
+}
+
+.news-type-btn {
+  height: 2em;
+  font-weight: bold;
+  margin: 20px 10px;
+  width: 15%;
+}

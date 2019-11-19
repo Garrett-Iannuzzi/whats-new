@@ -9,7 +9,7 @@ const Menu = () => {
         type='text'
         placeholder='Search News'
       />
-      <button>Search</button>
+      <button className='search-btn'>Search</button>
     </nav>
   )
 }
