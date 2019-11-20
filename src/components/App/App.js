@@ -27,22 +27,29 @@ class App extends Component {
   }
 
   filterByNewsType = (e) => {
-    console.log(e.target)
     const newsType = e.target.innerText.toLowerCase()
     const targetData = dataSets[newsType]
-    this.setState({
-      data: targetData,
-    })
+    this.setState({ data: targetData })
   }
 
-  render () {
+  handleSearch = (searchTerm) => {
+    const filteredData = this.state.data.filter(article => {
+      return article.headline.toLowerCase().includes(searchTerm.toLowerCase()) 
+        || article.description.toLowerCase().includes(searchTerm.toLowerCase())
+    })
+    this.setState({ data: filteredData })
+  }
+
+  render () { 
     return (
       <main>
         <Menu 
           filterByNewsType={this.filterByNewsType}
           btnTitles={Object.keys(dataSets)}
         />
-        <SearchForm />
+        <SearchForm 
+          handleSearch={this.handleSearch}
+        />
         <NewsContainer 
           articles={this.state.data}
         />
