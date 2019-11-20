@@ -12,6 +12,7 @@ class SearchForm extends Component {
     return (
       <div>
         <input 
+          aria-label='Text Box'
           type='text'
           placeholder='Search News'
           value={this.state.inputValue}
