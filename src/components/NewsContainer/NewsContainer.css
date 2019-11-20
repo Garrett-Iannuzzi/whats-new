@@ -1,5 +1,4 @@
 .article-section {
-  background-color: darkgrey;
   display: flex;
   flex-direction: column;
   flex-flow: wrap;

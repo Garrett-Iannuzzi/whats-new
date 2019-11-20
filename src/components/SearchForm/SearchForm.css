@@ -1,28 +1,25 @@
-aside {
-  background-color: darkgrey;
-  border-bottom: solid 4px white;
-  display: flex;
-  height: 3.2em;
-  justify-content: space-between;
+input {
+  background-color: aliceblue;
+  height: 2em;
+  margin: 10px;
+  padding-left: 8px;
+  width: 40%;
 }
 
-.news-type-btn {
-  height: 2em;
+.search-btn {
   font-weight: bold;
-  margin: 20px 10px;
+  height: 2em;
+  margin: 10px;
   width: 15%;
 }
 
-/* .navbar {
-  background-color: darkgrey;
-  border-bottom: solid 4px white;
-  display: flex;
-  height: 3.2em;
-  justify-content: space-between;
-} */
+.search-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: indianred;
+}
 
-h1 {
-  font-size: 1.7em;
-  color: black;
-  padding: 15px 0px;
+.search-bar-div {
+  height: 2.5em;
+  border-bottom: solid 1px darkgray;
 }

@@ -1,12 +1,27 @@
-input {
-  background-color: aliceblue;
-  height: 4em;
-  margin: 10px;
-  padding-left: 8px;
-  width: 40%;
+aside {
+  border-top: solid 1px darkgrey;
+  border-bottom: solid 1px darkgrey;
+  display: flex;
+  height: 3.8em;
+  justify-content: space-between;
 }
 
-.search-btn {
-  margin: 10px;
+.news-type-btn {
+  height: 2.5em;
+  font-weight: bold;
+  margin: 20px 10px;
   width: 15%;
+}
+
+.news-type-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: indianred;
+}
+
+h1 {
+  color: black;
+  font-size: 3em;
+  padding: 15px 15px;
+  text-align: left;
 }

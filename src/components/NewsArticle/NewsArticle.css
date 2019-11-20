@@ -1,13 +1,29 @@
 .article-individual {
-  border: solid 2px white;
+  border: solid 1px darkgrey;
   font-size: .9em;
   margin: .5em;
-  padding: .1em;
+  padding: 1em;
   width: 48%;
 }
 
+.article-individual:hover {
+  border: solid 1px indianred;
+  background-color: whitesmoke;
+}
+
 .art-img {
+  border: solid 2px darkgray;
   width: 70%;
+}
+
+.article-title {
+  font-size: 1em;
+  padding: .7em;
+}
+
+.article-description {
+  font-size: .8em;
+  padding: 15px;
 }
 
 .see-article-btn {
@@ -16,4 +32,10 @@
   height: 2em;
   margin: 1em;
   width: 40%;
+}
+
+.see-article-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: indianred;
 }

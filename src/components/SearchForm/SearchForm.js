@@ -10,7 +10,7 @@ class SearchForm extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='search-bar-div'>
         <input 
           aria-label='Text Box'
           type='text'

@@ -36,7 +36,7 @@ class App extends Component {
     const filteredData = this.state.data.filter(article => {
       return article.headline.toLowerCase().includes(searchTerm.toLowerCase()) 
         || article.description.toLowerCase().includes(searchTerm.toLowerCase())
-    })
+    });
     this.setState({ data: filteredData })
   }
 
