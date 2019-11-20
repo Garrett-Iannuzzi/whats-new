@@ -40,9 +40,9 @@ class App extends Component {
       <main>
         <Menu 
           filterByNewsType={this.filterByNewsType}
+          btnTitles={Object.keys(dataSets)}
         />
-        <SearchForm 
-        />
+        <SearchForm />
         <NewsContainer 
           articles={this.state.data}
         />
