@@ -19,7 +19,7 @@ describe('Search Form', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('should update the state onChange', () => {
+  it('should update the state on the input', () => {
     wrapper.instance().handleChange(event)
     expect(wrapper.state('inputValue')).toEqual('test value')
   });
@@ -28,6 +28,5 @@ describe('Search Form', () => {
     wrapper.find('button').simulate('click');
     expect(handleSearchMock).toHaveBeenCalled()
   });
-
 
 })
