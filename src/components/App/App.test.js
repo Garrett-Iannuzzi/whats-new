@@ -21,11 +21,11 @@ describe('App', () => {
     expect(wrapper).toMatchSnapshot()
   });
 
-  describe('Methods', () => {
-    it('should change news displayed based on a search', () => {
+  // describe('Methods', () => {
+  //   it('should change news displayed based on a search', () => {
 
-    });
-  });
+  //   });
+  // });
 
 });
 
