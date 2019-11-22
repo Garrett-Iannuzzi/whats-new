@@ -4,7 +4,7 @@ import SearchForm from './SearchForm';
 
 describe('Search Form', () => {
 
-  let event = { target: { name: 'input', value: 'test value' } };
+  let event = { keyCode: 13, target: { name: 'input', value: 'test value' } };
   let wrapper
   let handleSearchMock
 
@@ -29,4 +29,8 @@ describe('Search Form', () => {
     expect(handleSearchMock).toHaveBeenCalled()
   });
 
-})
+  it('should run handleEnterKey when the enter key is pressed', () => {
+    wrapper.instance().handleEnterKey(event)
+    expect(handleSearchMock).toHaveBeenCalled()
+  });
+});
