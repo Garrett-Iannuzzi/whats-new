@@ -4,7 +4,7 @@ import SearchForm from './SearchForm';
 
 describe('Search Form', () => {
 
-  let event = { target: { value: 'test value' } };
+  let event = { target: { name: 'input', value: 'test value' } };
   let wrapper
   let handleSearchMock
 

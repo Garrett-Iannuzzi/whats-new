@@ -2,11 +2,11 @@ import React from 'react';
 import './Menu.css'
 
 const Menu = ({ filterByNewsType, btnTitles }) => {
-  
+
   const menuBtns = btnTitles.map(title => {
-    return (
-      <button className='news-type-btn' onClick={filterByNewsType}>{title}</button>
-    )
+      return (
+        <button className='news-type-btn' key={Math.random().toString()} onClick={filterByNewsType}>{title}</button>
+      )
   })
 
   return (

@@ -6,6 +6,7 @@ exports[`Search Form should match the snapshot with all data passed in correctly
 >
   <input
     aria-label="Text Box"
+    name="input"
     onChange={[Function]}
     placeholder="Search News"
     type="text"

@@ -20,6 +20,7 @@ class SearchForm extends Component {
           aria-label='Text Box'
           type='text'
           placeholder='Search News'
+          name='input'
           value={this.state.inputValue}
           onChange={this.handleChange}
         />
