@@ -10,35 +10,35 @@ exports[`Menu should match the snapshot with all data passed in correctly 1`] = 
   <aside>
     <button
       className="news-type-btn"
-      key="0.4836230561977266"
+      key="0.7840633769560659"
       onClick={[MockFunction]}
     >
       local news
     </button>
     <button
       className="news-type-btn"
-      key="0.8083674593115835"
+      key="0.3118166104924005"
       onClick={[MockFunction]}
     >
       entertainment
     </button>
     <button
       className="news-type-btn"
-      key="0.6823820004053658"
+      key="0.04347748136617269"
       onClick={[MockFunction]}
     >
       tech
     </button>
     <button
       className="news-type-btn"
-      key="0.9618412956964904"
+      key="0.8877348488619285"
       onClick={[MockFunction]}
     >
       science
     </button>
     <button
       className="news-type-btn"
-      key="0.8368353316060853"
+      key="0.45471043699276503"
       onClick={[MockFunction]}
     >
       health
