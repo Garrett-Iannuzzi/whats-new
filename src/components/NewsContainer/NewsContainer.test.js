@@ -14,5 +14,4 @@ describe('News Container', () => {
     />)
     expect(wrapper).toMatchSnapshot();
   });
-
-})
+});
