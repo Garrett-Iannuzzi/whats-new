@@ -11,7 +11,7 @@ const Menu = ({ filterByNewsType, btnTitles }) => {
 
   return (
     <nav className='navbar'> 
-      <h1>What's NEWs</h1>
+      <h1>What's <span>NEW</span>s</h1>
       <aside>
         {menuBtns}
       </aside>
