@@ -5,35 +5,44 @@ exports[`Menu should match the snapshot with all data passed in correctly 1`] = 
   className="navbar"
 >
   <h1>
-    What's NEWs
+    What's 
+    <span>
+      NEW
+    </span>
+    s
   </h1>
   <aside>
     <button
       className="news-type-btn"
+      key="0.06175401400969638"
       onClick={[MockFunction]}
     >
       local news
     </button>
     <button
       className="news-type-btn"
+      key="0.2870874946388382"
       onClick={[MockFunction]}
     >
       entertainment
     </button>
     <button
       className="news-type-btn"
+      key="0.928282936602703"
       onClick={[MockFunction]}
     >
       tech
     </button>
     <button
       className="news-type-btn"
+      key="0.6533596532529338"
       onClick={[MockFunction]}
     >
       science
     </button>
     <button
       className="news-type-btn"
+      key="0.7208049234030363"
       onClick={[MockFunction]}
     >
       health

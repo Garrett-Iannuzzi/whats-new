@@ -9,7 +9,6 @@ import NewsContainer from '../NewsContainer/NewsContainer';
 import Menu from '../Menu/Menu';
 import SearchForm from '../SearchForm/SearchForm';
 
-//This could be a fake database
 const dataSets ={
   'local news': local,
   entertainment: entertainment,
