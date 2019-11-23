@@ -43,7 +43,7 @@ describe('App', () => {
       expect(wrapper.state('data')).toEqual(local)
       wrapper.instance().handleSearch('SkeLeton');
       expect(wrapper.state('data')).toEqual(mockArticle);
-    })
+    });
   });
 });
 

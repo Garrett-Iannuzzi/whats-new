@@ -13,5 +13,4 @@ describe('News Article', () => {
       />);
       expect(wrapper).toMatchSnapshot();
   });
-
 });

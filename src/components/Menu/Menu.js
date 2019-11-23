@@ -1,5 +1,6 @@
 import React from 'react';
-import './Menu.css'
+import './Menu.css';
+import PropTypes from 'prop-types';
 
 const Menu = ({ filterByNewsType, btnTitles }) => {
 
@@ -17,6 +18,11 @@ const Menu = ({ filterByNewsType, btnTitles }) => {
       </aside>
     </nav>
   )
+}
+
+Menu.propTypes = {
+  filterByNewsType: PropTypes.func,
+  btnTitles: PropTypes.array
 }
 
 export default Menu;

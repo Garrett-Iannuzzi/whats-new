@@ -20,7 +20,7 @@ describe('Menu', () => {
 
   it('should match the snapshot with all data passed in correctly', () => {
     expect(wrapper).toMatchSnapshot()
-  })
+  });
 
   describe('Search Buttons', () => {
     it('should filter by correct news type when filterByNewsType is clicked, first btn', () => {
@@ -47,7 +47,5 @@ describe('Menu', () => {
       wrapper.find('button').at(4).simulate('click');
       expect(mockFilterByNewsType).toHaveBeenCalled();
     });
-  })
-
-
-})
+  });
+});

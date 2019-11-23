@@ -21,5 +21,4 @@ NewsArticle.propTypes = {
   id: PropTypes.number
 }
 
-
 export default NewsArticle;
