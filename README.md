@@ -18,7 +18,7 @@ This application was built over 5 days using `create-react-app`, the goal of cre
 
 ### Screenshots:
 
-![screen-shot](screenshots/Screen Shot)
+![screen-shot](screenshots/screenshot.png)
 
 
 
