@@ -20,7 +20,7 @@ This application was built over 5 days using `create-react-app`, the goal of cre
 
 ![screen-shot](screenshots/screenshot.png)
 
-![screen-shot](screenshots/screenshot.png)
+![screen-shot](screenshots/video.mp4)
 
 
 
