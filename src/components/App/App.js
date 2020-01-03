@@ -8,8 +8,11 @@ import './App.css';
 import NewsContainer from '../NewsContainer/NewsContainer';
 import Menu from '../Menu/Menu';
 import SearchForm from '../SearchForm/SearchForm';
+import { connect } from 'react-redux';
+import { getArticles } from '../../reducers/articles';
 
-const dataSets ={
+
+const dataSets = {
   'local news': local,
   entertainment: entertainment,
   tech: technology,
@@ -17,7 +20,7 @@ const dataSets ={
   health: health
 }
 
-class App extends Component {
+export class App extends Component {
   constructor() {
     super();
     this.state = {
@@ -26,6 +29,8 @@ class App extends Component {
   }
 
   filterByNewsType = (e) => {
+    console.log(dataSets)
+    this.props.getArticles(dataSets)
     const newsType = e.target.innerText.toLowerCase()
     const targetData = dataSets[newsType]
     this.setState({ data: targetData })
@@ -57,4 +62,8 @@ class App extends Component {
   }
 }
 
-export default App;
+export const mapDispatch = dispatch => ({
+  articles: dataSets => dispatch(getArticles(dataSets))
+});
+
+export default connect(null, mapDispatch)(App);
